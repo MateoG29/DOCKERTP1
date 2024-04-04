@@ -30,24 +30,24 @@ Avant de commencer, assurez-vous d'avoir docker sur votre machine.
 4. Récupérer le dockerfile qui permettra de construire l'image de l'application.
 
 ### Construire l'image de l'application : 
-sudo docker build -t app Docker
+```sudo docker build -t app Docker```
 
 ### Pour vérifier que l'image a bien été créée :
-sudo docker images
+```sudo docker images```
 
 ## Docker Compose
 Pour créer les différents conteneurs, il vous faudra d'abord récupérer les fichiers prometheus.yml ainsi que docker-compose.yml.
 
 ### Démarrer les conteneurs
-sudo docker-compose up -d
+```sudo docker-compose up -d```
 ### Vérifier leur fonctionnement 
-sudo docker ps -a
+```sudo docker ps -a```
 
 ### Test
 Si vos conteneurs sont bien UP vous pouvez alors vous connecter sur les différentes applications 
-- Flask : http://votreip:5000
-- Grafana : http://votreip:3000
-- Prometheus : http://votreip:9090
+- Flask : ```http://votreip:5000```
+- Grafana : ```http://votreip:3000```
+- Prometheus : ```http://votreip:9090```
 
 ## Configuration
 ### Pour Prometheus
@@ -55,7 +55,7 @@ Aller dans Targets et vérifier qu'elles sont UP
 ### Pour Grafana
 1. Aller dans Connections -> Data sources -> Add Data sources
 2. Ajouter prometheus
-3. Entrer l'url http://nomduservice:9090
+3. Entrer l'url ```http://nomduservice:9090```
 4. Save & Test
 5. Aller dans Dashboards -> Add Visualization -> Prometheus
 6. Dans Metric entrer flask_http_request_total -> Run queries
