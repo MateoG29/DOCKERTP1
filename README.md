@@ -10,7 +10,7 @@ Ce projet vous permet de déployer une application Flask, Prometheus et Grafana 
 
 1. [Introduction](#introduction)
 2. [Prérequis](#prérequis)
-3. [Installation](#installation)
+3. [Application Flask](#Application Flask)
 4. [Utilisation](#utilisation)
 5. [Configuration](#configuration)
 6. [Contributions](#contributions)
@@ -18,14 +18,14 @@ Ce projet vous permet de déployer une application Flask, Prometheus et Grafana 
 
 ## Introduction
 
-Ce projet vous permet de surveiller et de visualiser les métriques de votre application Flask à l'aide de Prometheus et Grafana. L'application Flask est utilisée pour collecter les métriques, Prometheus est utilisé pour stocker et interroger les métriques, et Grafana est utilisé pour visualiser les métriques sous forme de graphiques et de tableaux de bord.
+Ce projet permet de créer avec Docker, une application Flask, de récupérer les metrics avec Prometheus et les mettre en forme via Grafana.
 
 ## Prérequis
 
-Avant de commencer, assurez-vous d'avoir installé Docker sur votre machine.
+Avant de commencer, assurez-vous d'avoir docker sur votre machine.
 
-## Installation
+## Application Flask
 
-1. Clonez ce dépôt sur votre machine locale :
+1. Installez Docker sur votre machine:
 
-   git clone https://github.com/votre-utilisateur/docker-flask-prometheus-grafana.git
+
