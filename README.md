@@ -31,5 +31,9 @@ Avant de commencer, assurez-vous d'avoir docker sur votre machine.
 3. Récupérer le fichier requirements.txt pour les dépendances de l'application.
 4. Récupérer le dockerfile qui permettra de construire l'image de l'application.
 
-# Construire l'image de l'application : # sudo docker build -t app Docker
+### Construire l'image de l'application : 
+sudo docker build -t app Docker
+
+### Pour vérifier que l'image a bien été créée :
+sudo docker images
 
