@@ -13,8 +13,6 @@ Ce projet vous permet de déployer une application Flask, Prometheus et Grafana 
 3. [Application Flask](#application-flask)
 4. [Docker Compose](#docker-compose)
 5. [Configuration](#configuration)
-6. [Contributions](#contributions)
-7. [Licence](#licence)
 
 ## Introduction
 
