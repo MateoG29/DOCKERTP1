@@ -10,7 +10,7 @@ Ce projet vous permet de déployer une application Flask, Prometheus et Grafana 
 
 1. [Introduction](#introduction)
 2. [Prérequis](#prérequis)
-3. [Application Flask](#Application_Flask)
+3. [application-flask](#Application_Flask)
 4. [Utilisation](#utilisation)
 5. [Configuration](#configuration)
 6. [Contributions](#contributions)
@@ -26,6 +26,9 @@ Avant de commencer, assurez-vous d'avoir docker sur votre machine.
 
 ## Application Flask
 
-1. Installez Docker sur votre machine:
+1. Créer un répertoire Docker dans lequel vous pourrez mettre vos fichiers.
+2. Récupérer le fichier app.py, fichier dans lequel se trouve l'application Flask.
+3. Récupérer le fichier requirements.txt pour les dépendances de l'application.
+4. Récupérer le dockerfile qui permettra de construire l'image de l'application.
 
 
